@@ -1,0 +1,96 @@
+/* --- Global reset styles --- */
+
+/* Box-sizing global */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove default list styles */
+ul, ol {
+  list-style: none;
+}
+
+/* Remove text decoration from links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Remove the background and border for buttons */
+button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+/* Ensure images are responsive */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Set the default font for the entire site */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.5;
+  background-color: #fff;
+  color: #333;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Remove outline for focused elements (only for accessibility focus ring should be visible) */
+:focus {
+  outline: none;
+}
+
+/* Set default styles for form elements */
+input,
+button,
+textarea,
+select {
+  font-family: inherit;
+  font-size: inherit;
+  border: none;
+  outline: none;
+  background: none;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='password'],
+textarea {
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+/* Adjust default margin for body and html */
+html,
+body {
+  height: 100%;
+}
+
+/* Ensures content always fills the viewport */
+#root, #app {
+  min-height: 100%;
+}
+
+/* Prevent overflow of body content */
+body {
+  overflow-x: hidden;
+}
+
+/* Add basic styles for accessibility */
+a:focus,
+button:focus {
+  outline: 2px solid #005fcc;
+}
+
