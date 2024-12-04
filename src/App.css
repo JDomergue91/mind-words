@@ -5,6 +5,25 @@
   text-align: center;
 }
 
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(
+    to top,
+    rgba(3, 76, 141, 1) 20%,    /* Bleu opaque en haut */
+    rgba(3, 76, 141, 0) 100%   /* Bleu transparent à 100% */
+  ),
+  linear-gradient(
+    to top,
+    rgba(247, 168, 62, 1) 20%,   /* Orange opaque en haut */
+    rgba(247, 168, 62, 0) 100%  /* Orange transparent à 100% */
+  );
+  background-size: 50% 80%;  /* 50% largeur et 50% hauteur */
+  background-position: left bottom, right bottom;  /* Positionner bleu à gauche, orange à droite */
+  background-repeat: no-repeat;
+}
+
+
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -12,10 +31,10 @@
   transition: filter 300ms;
 }
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+  filter: drop-shadow(0 0 2em #f7a83e);
 }
 .logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+  filter: drop-shadow(0 0 2em #034c8d);
 }
 
 @keyframes logo-spin {

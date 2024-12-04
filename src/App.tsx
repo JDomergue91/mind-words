@@ -1,13 +1,14 @@
 import React from 'react';
 import { CssBaseline, ThemeProvider, createTheme } from '@mui/material';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Home from './pages/Home';
-import Rules from './pages/Rules';
-import Glossary from './pages/Glossary';
-import WordGenerator from './pages/WordGenerator';
-import Contact from './pages/Contact';
-import Header from './components/Header';
-import Footer from './components/Footer';
+import Home from './pages/Home/Home';
+import Rules from './pages/Rules/Rules';
+import Glossary from './pages/Glossary/Glossary';
+import WordGenerator from './pages/WordGenerator/WordGenerator';
+import Contact from './pages/Contact/Contact';
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
+import './App.css';
 
 // Définition du thème
 const theme = createTheme({
