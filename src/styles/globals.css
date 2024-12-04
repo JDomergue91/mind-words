@@ -88,9 +88,4 @@ body {
   overflow-x: hidden;
 }
 
-/* Add basic styles for accessibility */
-a:focus,
-button:focus {
-  outline: 2px solid #005fcc;
-}
 

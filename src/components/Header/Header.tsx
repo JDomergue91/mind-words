@@ -8,9 +8,11 @@ const Header: React.FC = () => {
 
   return (
     <div className="header-container">
-      <Link to="/" className="logo-link"> {/* Lien vers la page principale */}
-        <img src={logo} alt="Logo MindWords" className="logo" />
-      </Link>
+      <div>
+        <Link to="/" className="logo-link"> {/* Lien vers la page principale */}
+          <img src={logo} alt="Logo MindWords" className="logo" />
+        </Link>
+      </div>
       <List className="nav-list">
         <ListItem component={Link} to="/rules" className={location.pathname === '/rules' ? 'selected' : ''}>
           <ListItemText primary="Rules" />

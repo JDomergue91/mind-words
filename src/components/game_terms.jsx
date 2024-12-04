@@ -1,4 +1,4 @@
-[
+const gameTerms = [
     {
         "word": "Network",
         "definition": "A group of computers connected to share information."
@@ -99,4 +99,6 @@
         "word": "Source code",
         "definition": "The programming code that makes a website or software work."
     }
-]
+];
+
+export default gameTerms;

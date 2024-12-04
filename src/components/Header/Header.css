@@ -1,8 +1,4 @@
 .header-container {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
     display: flex;
     align-items: center;
     background-color: #ffffff;
@@ -13,24 +9,27 @@
 .logo {
   height: 250px;
   margin-right: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .nav-list {
   display: flex;
-  width: 50%;
-  flex-grow: 1;
-  justify-content: space-around;
+  gap: 10px;
+  flex-wrap: nowrap;
 }
 
 .nav-list .MuiListItem {
   margin: 0 5px;
   padding: 5px 10px;
+  white-space: nowrap;
+  display: inline-block;
 }
 
 .nav-list .MuiListItemText-primary {
   color: #f7a83e;
   font-weight: bold;
+  white-space: nowrap;
 }
-.nav-list .MuiListItem.selected {
-    border-bottom: 2px solid #034c8d; /* Soulignement bleu */
-}
+

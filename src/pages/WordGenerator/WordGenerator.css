@@ -1,0 +1,35 @@
+body {
+    color: #034c8d;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px; 
+    background-color: white;
+    }
+  
+  th, td {
+    border: 1px solid #034c8d;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f0f0f0;
+  }
+  
+  .generate-button {
+    background-color: #f7a83e;
+    color: white; 
+    padding: 10px 20px; 
+    margin-top: 20px;
+    cursor: pointer;
+    display: flex;
+    align-self: flex-start;
+    border-radius: 8px;
+  }
+  
+  .generate-button:hover {
+    background-color: #034c8d;
+  }
