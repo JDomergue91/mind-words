@@ -1,4 +1,9 @@
-const gameTerms = [
+interface GameTerm {
+    word: string;
+    definition: string;
+  }
+
+  const gameTerms: GameTerm[] = [
     {
         "word": "Network",
         "definition": "A group of computers connected to share information."
