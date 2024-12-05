@@ -23,9 +23,6 @@ const Header: React.FC = () => {
         <ListItem component={Link} to="/word-generator" className={location.pathname === '/word-generator' ? 'selected' : ''}>
           <ListItemText primary="Mind Words generator" />
         </ListItem>
-        <ListItem component={Link} to="/contact" className={location.pathname === '/contact' ? 'selected' : ''}>
-          <ListItemText primary="Contact" />
-        </ListItem>
       </List>
     </div>
   );

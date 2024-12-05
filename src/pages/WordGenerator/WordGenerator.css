@@ -61,3 +61,15 @@ td button {
 td button:hover {
   background-color: #034c8d;
 }
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .word-table {
+    font-size: 0.9em;
+  }
+
+  .generate-button {
+    width: 100%;
+    padding: 10px;
+  }
+}
