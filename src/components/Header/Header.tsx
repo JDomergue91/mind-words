@@ -1,15 +1,15 @@
 import { List, ListItem, ListItemText } from '@mui/material';
-import { Link, useLocation } from 'react-router-dom'; // Utilisation de react-router pour la navigation
-import logo from '../../assets/images/MindWords-logo.png'; // Assurez-vous que le chemin est correct
-import './Header.css'; // Importer le fichier CSS pour le style
+import { Link, useLocation } from 'react-router-dom';
+import logo from '../../assets/images/MindWords-logo.png';
+import './Header.css';
 
 const Header: React.FC = () => {
-  const location = useLocation(); // Récupérer l'emplacement actuel
+  const location = useLocation();
 
   return (
     <div className="header-container">
       <div>
-        <Link to="/" className="logo-link"> {/* Lien vers la page principale */}
+        <Link to="/" className="logo-link">
           <img src={logo} alt="Logo MindWords" className="logo" />
         </Link>
       </div>

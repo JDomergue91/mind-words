@@ -1,35 +1,63 @@
+/* src/pages/WordGenerator/WordGenerator.css */
 body {
-    color: #034c8d;
-  }
-  
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px; 
-    background-color: white;
-    }
-  
-  th, td {
-    border: 1px solid #034c8d;
-    padding: 10px;
-    text-align: left;
-  }
-  
-  th {
-    background-color: #f0f0f0;
-  }
-  
-  .generate-button {
-    background-color: #f7a83e;
-    color: white; 
-    padding: 10px 20px; 
-    margin-top: 20px;
-    cursor: pointer;
-    display: flex;
-    align-self: flex-start;
-    border-radius: 8px;
-  }
-  
-  .generate-button:hover {
-    background-color: #034c8d;
-  }
+  color: #034c8d;
+}
+
+.word-table {
+  width: 100%;
+  max-width: 1200px;
+  border-collapse: collapse;
+  margin-top: 20px; 
+  background-color: white;
+  table-layout: fixed;
+}
+
+th, td {
+  border: 1px solid #034c8d;
+  padding: 10px;
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+th {
+  background-color: #f0f0f0;
+}
+
+.firstColumn {
+  width: 40%;
+}
+
+.secondeColumn {
+  width: 60%;
+}
+
+.generate-button {
+  background-color: #f7a83e;
+  color: white; 
+  padding: 10px 20px; 
+  margin-top: 20px;
+  cursor: pointer;
+  display: flex;
+  align-self: flex-start;
+  border-radius: 8px;
+}
+
+.generate-button:hover {
+  background-color: #034c8d;
+}
+
+/* Styles pour le bouton dans le tableau */
+td button {
+  background-color: #f7a83e;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+td button:hover {
+  background-color: #034c8d;
+}
