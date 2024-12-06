@@ -40,7 +40,6 @@ th {
   margin-top: 20px;
   cursor: pointer;
   display: flex;
-  align-self: flex-start;
   border-radius: 8px;
 }
 

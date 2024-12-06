@@ -1,0 +1,13 @@
+.word-table-container {
+  max-height: 600px;
+  overflow-y: auto;
+  border: 1px solid #034c8d;
+  margin-top: 20px;
+}
+
+.word-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  table-layout: fixed;
+}
